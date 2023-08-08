@@ -1,0 +1,130 @@
+/* Global */
+.center-content {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-color1 {
+    background-color: #F6F6F6;
+}
+
+.round {
+    border-radius: 1.5rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+/* Body CSS */
+
+
+
+/* Login and Registration */
+.text-red {
+    color: #e93030
+}
+
+.text-blue {
+    color: #2B4A9D
+}
+
+/* Nav Bar */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #e93030;
+}
+
+.nav-link:hover {
+    color: #e93030;
+}
+
+.primaryColor {
+    color: #D20C25;
+}
+
+.secondaryColor {
+    color: #2B4A9D;
+}
+
+
+.login-button {
+    background-color: #2B4A9D;
+    color: #ffffff;
+}
+
+
+
+/* Login Form */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+/* Search Blood */
+.blood-search {
+    vertical-align: center;
+    background-color: #F6F6F6;
+    height: 100vh;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Donors.html page */
+.underline-text {
+    text-decoration: underline;
+    text-decoration-color: #e93030;
+}
+
+.text-blue {
+    color: #2B4A9D;
+}
+
+.text-red {
+    color: #e93030;
+}
+
+.donor-profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donor-container {
+    background-color: #F6F6F6;
+    border: #e93030;
+
+}
+
+
+/* Footer Css ------------------------------------------*/
+
+/* Footer Css Ends------------------------------------- */
